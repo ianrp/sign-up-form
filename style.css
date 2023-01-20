@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-panel {
+    max-width: 600px;
+    height: 100vh;
+    background-image: url("background.avif");
+}
