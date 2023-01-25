@@ -107,7 +107,8 @@ input {
 label {
     display: block;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 0.1rem
 }
 
 input:focus {
@@ -151,4 +152,14 @@ button:active {
 
 .content a:hover {
     color: hsl(92, 20%, 45%);
+}
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    float: left;
+    font-size: 14px;
 }
